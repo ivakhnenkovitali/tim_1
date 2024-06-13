@@ -50,8 +50,6 @@
    * Public Util Api
    * --------------------------------------------------------------------------
    */
-
-
   const getUID = prefix => {
     do {
       prefix += Math.floor(Math.random() * MAX_UID);
